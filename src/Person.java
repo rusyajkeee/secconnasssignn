@@ -1,4 +1,5 @@
-package People;
+import javax.swing.*;
+import java.util.ArrayList;
 
 public class Person implements Payable, Comparable<Person> {
 
@@ -43,7 +44,7 @@ public class Person implements Payable, Comparable<Person> {
     }
 
     public String getPosition() {
-        return "People.Student";
+        return "Student";
     }
 
     @Override

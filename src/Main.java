@@ -1,9 +1,6 @@
-import People.Employee;
-import People.Person;
-import People.Student;
-
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 class Main {
     public static void main(String[] args) {

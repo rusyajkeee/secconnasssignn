@@ -1,7 +1,3 @@
-package People;
-
-import People.Person;
-
 public class Employee extends Person {
     private static int id_gen = 1;
     private int id;
@@ -37,6 +33,6 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return "People.Employee:" + getId() +". "+ getName() + " " + getSurname();
+        return "Employee:" + getId() +". "+ getName() + " " + getSurname();
     }
 }

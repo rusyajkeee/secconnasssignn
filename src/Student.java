@@ -1,8 +1,4 @@
-package People;
-
-import People.Person;
-
-public class Student extends Person {
+public class Student extends Person{
     private static int id_gen = 1;
     private int id;
     private double GPA;
@@ -28,7 +24,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "People.Student" +
+        return "Student" +
                 ":" + getId() +
                 "." + getName() + " " + getSurname();
     }
