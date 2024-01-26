@@ -30,6 +30,11 @@ public class Student extends Person{
     }
 
     @Override
+    public String getPosition() {
+        return "Student";
+    }
+
+    @Override
     public double getPaymentAmount() {
         if (GPA > 2.67)
             return stipend;

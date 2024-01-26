@@ -43,8 +43,8 @@ public class Person implements Payable, Comparable<Person> {
         return id + ". " + name + " " + surname;
     }
 
-    public String getPosition() {
-        return "Student";
+    public String getPosition(){
+        return "";
     }
 
     @Override
@@ -57,3 +57,4 @@ public class Person implements Payable, Comparable<Person> {
         return Double.compare(getPaymentAmount(), person.getPaymentAmount());
     }
 }
+

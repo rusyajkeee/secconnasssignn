@@ -11,6 +11,7 @@ class Main {
         personArrayList.add(new Employee("Tigr", "Big", "Tiger", 10000));
 
 
+
         Collections.sort(personArrayList);
         printData(personArrayList);
     }
